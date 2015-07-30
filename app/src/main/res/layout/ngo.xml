@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="10"
+    android:weightSum="80"
+    android:padding="10dp"
+    android:id="@+id/sdv">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="This is the list of NGOs"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="10" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="M.Venkatarangaiya Foundation"
+        android:id="@+id/button1"
+        android:layout_weight="10"
+        android:background="#F3B200" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Ahwaan Foundation"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="10"
+        android:background="#77B900" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="AVANI"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="10"
+        android:background="#2572EB" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Prayas"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="10"
+        android:background="#C27D4F" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Sneh Prayas"
+        android:id="@+id/button5"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="10"
+        android:background="#1FAEFF" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="CRY - Child Rights and You"
+        android:id="@+id/button6"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="10"
+        android:background="#91D100" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Bachapan Bachao Andolan"
+        android:id="@+id/button7"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="10"
+        android:background="#569CE3" />
+
+</LinearLayout>
